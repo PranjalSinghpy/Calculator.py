@@ -9,7 +9,7 @@ def mul(n1, n2):
 
 def div(n1, n2):
     if n2 == 0:
-        return "Error: Zero is not a valid divisor."
+        return "Error: Cannot divide by zero"
     return n1 / n2
 
 operations = {
